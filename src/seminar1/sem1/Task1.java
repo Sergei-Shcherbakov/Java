@@ -10,14 +10,17 @@ import java.util.Scanner;
 //        "Доброй ночи, <Имя>!", если время от 23:00 до 4:59
 public class Task1 {
     public static void main(String[] args) {
-        System.out.println("Укажите имя: ");
-        Scanner scanner = new Scanner(System.in);
-        String name = scanner.nextLine();
-        LocalTime time = LocalTime.now();
-        int hour = time.getHour();
-        if (hour>=5 && hour<12) System.out.printf("Доброе утро, %s!", name);
-        else if (hour>=12 && hour<18) System.out.printf("Доброй день, %s!", name);
-        else if (hour>=18 && hour<23) System.out.printf("Доброй вечер, %s!", name);
-        else  System.out.printf("Доброй ночи, %s!", name);
+//        System.out.println("Укажите имя: ");
+//        Scanner scanner = new Scanner(System.in);
+//        String name = scanner.nextLine();
+//        LocalTime time = LocalTime.now();
+//        int hour = time.getHour();
+//        if (hour>=5 && hour<12) System.out.printf("Доброе утро, %s!", name);
+//        else if (hour>=12 && hour<18) System.out.printf("Доброй день, %s!", name);
+//        else if (hour>=18 && hour<23) System.out.printf("Доброй вечер, %s!", name);
+//        else  System.out.printf("Доброй ночи, %s!", name);
+        double n = 4;
+        double r = 3;
+        System.out.println(n/r);
     }
 }
