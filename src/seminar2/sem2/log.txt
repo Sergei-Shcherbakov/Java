@@ -1,0 +1,2 @@
+авг. 30, 2024 9:43:29 AM seminar2.sem2.task4 saveToFile
+INFO: Запись прошла успешно
